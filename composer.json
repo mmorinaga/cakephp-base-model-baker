@@ -1,0 +1,23 @@
+{
+    "name": "mmorinaga/cakephp-base-model-baker",
+    "description": "BaseModelBaker plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "license": "MIT",
+    "require": {
+        "cakephp/cakephp": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.7.14|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseModelBaker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BaseModelBaker\\Test\\": "tests/",
+            "Cake\\Test\\": "vendor/cakephp/cakephp/tests/"
+        }
+    }
+}
